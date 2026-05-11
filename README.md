@@ -209,26 +209,8 @@ python -m cad_data_gen.build_occlusion_assets \
 cad_data_gen/.secrets/deepseek_api_key
 ```
 
-也可以查看脚本 `--help` 使用命令行参数传入。`.secrets/` 已加入 `.gitignore`，不要把密钥提交到公开仓库。
+也可以查看脚本 `--help` 使用命令行参数传入。
 
-## 发布建议
-
-建议发布时保留：
-
-- `README.md`
-- `CORE_PIPELINE.md`
-- `requirements.txt`
-- `sample/`
-- `src/`
-- `.gitignore`
-
-建议不要提交：
-
-- `runs/`
-- `.secrets/`
-- `__pycache__/`
-- `*.pyc`
-- `recovered_patches_from_transcript/`
 
 如果用户没有 Blender，也可以先把命令里的 `--render-backend blender-step --blender-style visualization` 改成：
 
