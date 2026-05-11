@@ -1,0 +1,6 @@
+cadquery
+numpy
+trimesh
+pillow
+tqdm
+PyYAML
